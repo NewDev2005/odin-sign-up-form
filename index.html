@@ -7,6 +7,78 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <p>Testing page</p>
+    <div class="parent-container">
+        <div id="image-container">
+            <img
+             class="whale-picture"
+             src="images/premium_photo-1697730002225-fcdc0ba16854.avif" alt="Humback whale" />
+        </div>
+        <div id="text-container">
+            <div class="information">
+                <div class="text">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+                     <p>You <i>know</i> you want to.</p>
+                </div>
+            </div>
+
+            <div id="forms">
+                <div class="lets"><p>Let's do this!</p></div>
+                <form action="" method="post">
+                    <div id="name">
+                        <div class="first-name">
+                            <label for="first_name"> FIRST NAME</label>
+                            <div>
+                                <input type="text" id="first_name" minlength="4" maxlength="15"/>
+                            </div>
+                        </div>
+
+                        <div class="second-name">
+                            <label for="second_name">SECOND NAME</label>
+                            <div>
+                                <input type="text" id="second_name"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="credentials">
+                        <div class="email">
+                            <label for="email">EMAIL*</label>
+                            <div>
+                                <input type="email" id="email" required/>
+                            </div>
+                        </div>
+
+                        <div class="phone-number">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <div>
+                                <input type="tel" id="phone_number"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="password">
+                        <div class="password-field">
+                            <label for="password">PASSWORD*</label>
+                            <div>
+                                <input type="password" id="password" minlength="10" required/>
+                            </div>
+                        </div>
+
+                        <div class="password-field">
+                            <label for="confirm_password">CONFIRM PASSWORD*</label>
+                            <div>
+                                <input type="password" id="confirm_password" required/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="submit-button">
+                        <input type="submit" value="Create Account"/>
+                        <p>Already have an account? <span class="log-in">Log in</span></p>
+                    </div>
+                </form>
+            </div>
+       </div>
+    </div>
 </body>
 </html>
