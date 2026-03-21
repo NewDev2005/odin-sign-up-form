@@ -31,7 +31,6 @@
 
 
 .text p, .lets p{
-    /* font-family: 'Source Code Pro'; */
     font-family: 'Cantarell';
     font-weight: bold;
 }
@@ -39,12 +38,11 @@
 .parent-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 #image-container {
     width: 500px;
-    height: 720px;
+    height: 650px;
     margin-left: -8px;
     margin-top: -8px;
 }
@@ -91,10 +89,11 @@
 
 .submit-button {
     width: 850px;
-    height: 250px;
+    height: 170px;
     padding-left: 30px;
-    margin-top: 50px;
+    margin-top: 32px;
     margin-left: -30px;
+    /* border: 1px solid black; */
     background-color: rgba(241, 241, 235, 0.596);
 }
 
